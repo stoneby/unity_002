@@ -157,6 +157,9 @@ public class GameMode : MonoBehaviour
 
     void Update ()
     {
+        if (GameOverUI.activeSelf)
+            return;
+        
 		while (lowestCircleY+gap >ball.transform.position.y)
         {
              var CircleList = GetNextCircle();
