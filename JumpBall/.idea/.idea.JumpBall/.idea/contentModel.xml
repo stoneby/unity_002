@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AssetBundleManager" t="Include">
+          <e p="ResourceManager.cs" t="Include" />
+          <e p="SingletonUnity.cs" t="Include" />
+        </e>
+        <e p="BouncingBall.cs" t="Include" />
+        <e p="ChaseBallCam.cs" t="Include" />
+        <e p="Circle.cs" t="Include" />
+        <e p="CircleList.cs" t="Include" />
+        <e p="GameMode.cs" t="Include" />
+        <e p="InputLogic.cs" t="Include" />
+        <e p="nu Assets" t="Include">
+          <e p="Easy Decal" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AdvancedBulletHoles.cs" t="Include" />
+                <e p="BasicBulletHoles.cs" t="Include" />
+                <e p="BezierUtil.cs" t="Include" />
+                <e p="InfoBubble.cs" t="Include" />
+                <e p="LineUtil.cs" t="Include" />
+                <e p="PathAgent.cs" t="Include" />
+                <e p="ProxyRegister.cs" t="Include" />
+                <e p="RuntimeDecalCombiner.cs" t="Include" />
+                <e p="Sinoid.cs" t="Include" />
+                <e p="SparksExecutioner.cs" t="Include" />
+              </e>
+              <e p="Unity SA" t="Include">
+                <e p="FP Character" t="Include">
+                  <e p="CurveCtrlBob.cs" t="Include" />
+                  <e p="FOVZoom.cs" t="Include" />
+                  <e p="FPCtrl.cs" t="Include" />
+                  <e p="LerpCtrlBob.cs" t="Include" />
+                  <e p="MLook.cs" t="Include" />
+                </e>
+                <e p="Patricles" t="Include">
+                  <e p="Shader" t="Include">
+                    <e p="PriorityParticleAdd.shader" t="Include" />
+                    <e p="PriorityParticleAddSoft.shader" t="Include" />
+                    <e p="PriorityParticleAlpha.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="README.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="DSSDShaderGUI.cs" t="Include" />
+                <e p="EDStandardShaderGUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shader" t="Include">
+              <e p="EDMultiply.shader" t="Include" />
+              <e p="EDSandardVACutoff.shader" t="Include" />
+              <e p="EDStandardSpecular.shader" t="Include" />
+              <e p="EDStandardSpecularVACutoff.shader" t="Include" />
+              <e p="EDVertexAlpha.shader" t="Include" />
+              <e p="EDVertexAlphaN.shader" t="Include" />
+              <e p="Legacy" t="Include">
+                <e p="ED_AlphaBumpSpec.shader" t="Include" />
+                <e p="ED_AlphaEdgeBleed.shader" t="Include" />
+                <e p="ED_AlphaEdgeBleed_Mul.shader" t="Include" />
+                <e p="ED_AlphaSimple.shader" t="Include" />
+                <e p="ED_ReflBumpSpec.shader" t="Include" />
+                <e p="ED_ReflBumpSpec_Cut.shader" t="Include" />
+                <e p="ED_SoftUnlit.shader" t="Include" />
+              </e>
+              <e p="Particles" t="Include">
+                <e p="ParticleAddSoft.shader" t="Include" />
+                <e p="ParticleAlpha.shader" t="Include" />
+              </e>
+              <e p="SSD" t="Include">
+                <e p="Legacy" t="Include">
+                  <e p="DSSD.shader" t="Include" />
+                  <e p="DSSDSignatures.cginc" t="Include" />
+                  <e p="Masking" t="Include">
+                    <e p="MaskStdMetallic.shader" t="Include" />
+                    <e p="MaskStdMetallicCG.shader" t="Include" />
+                    <e p="MaskStdMetallicCG_DoubleSided.shader" t="Include" />
+                    <e p="MaskStdSpecular.shader" t="Include" />
+                    <e p="MaskStdSpecularCG.shader" t="Include" />
+                  </e>
+                  <e p="SSD-M.shader" t="Include" />
+                  <e p="SycoDSSD.cginc" t="Include" />
+                  <e p="SycoFSSD.cginc" t="Include" />
+                  <e p="SycoSSD.cginc" t="Include" />
+                  <e p="Util.cginc" t="Include" />
+                </e>
+              </e>
+              <e p="Unlit" t="Include">
+                <e p="EDAlpha.shader" t="Include" />
+                <e p="EDMultiply.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Editor Default Resources" t="Include">
+            <e p="nu Assets" t="Include">
+              <e p="Shared" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="Canvas.shader" t="Include" />
+                  <e p="CanvasChannels.shader" t="Include" />
+                  <e p="CanvasOpaque.shader" t="Include" />
+                  <e p="CanvasSelection.shader" t="Include" />
+                  <e p="CanvasUtil.cginc" t="Include" />
+                  <e p="UnlitColorAlpha.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Pie.cs" t="Include" />
+        <e p="ScoreAnim.cs" t="Include" />
+        <e p="Tool" t="Include">
+          <e p="Editor" t="Include">
+            <e p="BuildScene.cs" t="Include" />
+          </e>
+          <e p="LoadScene.cs" t="Include" />
+        </e>
+      </e>
+      <e p="JumpBall.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_JumpBall.1166766067.00" t="ExcludeRecursive" />
+  </component>
+</project>

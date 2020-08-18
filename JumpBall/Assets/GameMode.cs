@@ -150,8 +150,8 @@ public class GameMode : MonoBehaviour
     public void ReStart()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("game");
     }
 
 
