@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Config
+public class GameConfig
 {
     public string SceneName;
     public string BundleName;

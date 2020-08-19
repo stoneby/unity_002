@@ -18,7 +18,7 @@ public class CreatAssetsBundle : Editor
 
     static void Build(BuildTarget target)
     {
-        var config = JsonUtility.FromJson<Config>(Resources.Load<TextAsset>("Config").text);
+        var config = JsonUtility.FromJson<GameConfig>(Resources.Load<TextAsset>("Config").text);
 
         BuildPipeline.BuildAssetBundles($"Assets/StreamingAssets/{config.BundleName}", BuildAssetBundleOptions.None, target);
 

@@ -12,7 +12,7 @@ public class LoadScene : MonoBehaviour
 
     void Start()
     {
-        var config = JsonUtility.FromJson<Config>(Resources.Load<TextAsset>("Config").text);
+        var config = JsonUtility.FromJson<GameConfig>(Resources.Load<TextAsset>("GameConfig").text);
         var sceneUrl = new Uri(Path.Combine(Application.streamingAssetsPath, config.SceneName)).AbsoluteUri;
         var bundleUrl = new Uri($"{Application.streamingAssetsPath}/{config.BundleName}/{config.AssetName}").AbsoluteUri;
 
